@@ -1,7 +1,8 @@
-# Bienvenido al repositorio de la materia de Progamaión de Interfaces Gráficas y Estructura de Datos
+# Bienvenido al repositorio de la materia de Progamación de Interfaces Gráficas y Estructura de Datos
 En este repositorio se encuentra publicado los ejemplos usados en clases.
 ## EjemploUno
 Hola mundo con **java**
+Recordar que el nombre del archivo debe ser el mismo de la clase en este caso seria: ***EjemploUno.java***
 ~~~~
 public class EjemploUno {
 
@@ -10,7 +11,7 @@ public class EjemploUno {
     }
 }
 ~~~~
-## EjemploUno
+## EjemploDos
 Tipos de datos y convención de nombres
 ~~~~
 public class EjemploDos {
