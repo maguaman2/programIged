@@ -50,7 +50,16 @@ a = a + 10;
 int b = a; 
 ~~~~
 ### Operadores matemáticos
-En java las operaciones matematicas basicas las podemos realuzar con este tipo de operadores.
+En java las operaciones matemáticas básicas (suma, resta, producto, división y residuo) las podemos realizar con este tipo de operadores.
+
+`a=a+b;  //forma larga de asignar a la variable a el valor a mas el valor  b`
+`a=a-b;  //forma larga de asignar a la variable a el valor a menos el valor de b
+
+`a=a+b;  //forma corta de asignar a la variable a el valor a mas el valor  b`
+`a=a-b;  //forma corta de asignar a la variable a el valor a menos el valor de b`
+
+La misma sintaxis funciona para el resto de operacion matemáticas básicas.
+
 ![operadormat](/images/asignacion.png "Operadores de asignación")
 
 ~~~~
@@ -70,6 +79,8 @@ public class EjemploTres {
         //a=a+1;   //Forma larga de incrementar  1;
         a++;     //Forma corta de incremntar 1
         b=b+1;
+
+
 
         a--;   // incremento posfijo
         b--;
