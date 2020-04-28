@@ -97,6 +97,8 @@ x = a + ++x;
 // Ahora si el resultado de x es 11
 ~~~~
 
+![operadorincre](/images/incremento.png "Operadores de asignación")
+
 ### La clase Math.
 
 La clase Math viene por defecto en el lenguaje java, esta clase trae metodos con las operaciones matemáticas mas usuales que son de uso universal.  
