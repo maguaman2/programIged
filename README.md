@@ -102,28 +102,21 @@ x = a + ++x;
 La clase Math viene por defecto en el lenguaje java, esta clase trae metodos con las operaciones matemáticas mas usuales que son de uso universal.  
 
 ~~~~
+double x;
 //Redondeo hacia arriba y hacia abjo
-Math.ceil(2.1) 
-Math.floar(2.1) 
+x = Math.ceil(2.1) 
+x = Math.floar(2.1) 
 
 //Potenciación y radicación
-Math.pow(2, 3) // EL primer argumento la base y el segundo la potencia
-Math.sqrt(3)   // Extrae la raiz cuadra del número
+x = Math.pow(2, 3) // EL primer argumento la base y el segundo la potencia
+x = Math.sqrt(3)   // Extrae la raiz cuadra del número
 
 // EL numero mayor de 2 numeros
-Math.max(2, 3) 
-
-// Área de un círculo (PI * r^2):
-Math.PI * Math.pow(r, 2)
-
-// Área de una esfera (4 * PI * r^2):
-4 * Math.PI * Math.pow(r, 2)
-
-// Volumen de una esfera ( (4/3) * PI * r^3):
-(4/3) * Math.PI * Math.pow(r, 3)
+x = Math.max(2, 3) 
 
 //Constantes PI
 Math.PI
 Math.E 
 
+//Ejericio calcular el area de un círculo
 ~~~~
