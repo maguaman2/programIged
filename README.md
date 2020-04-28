@@ -52,62 +52,78 @@ int b = a;
 ### Operadores matemáticos
 En java las operaciones matemáticas básicas (suma, resta, producto, división y residuo) las podemos realizar con este tipo de operadores.
 
-`a=a+b;  //forma larga de asignar a la variable a el valor a mas el valor  b`
-`a=a-b;  //forma larga de asignar a la variable a el valor a menos el valor de b
+~~~~
+a=a+b;  //forma larga de asignar a la variable a el valor a mas el valor  b
+a=a-b;  //forma larga de asignar a la variable a el valor a menos el valor de b
 
-`a=a+b;  //forma corta de asignar a la variable a el valor a mas el valor  b`
-`a=a-b;  //forma corta de asignar a la variable a el valor a menos el valor de b`
-
+a=a+b;  //forma corta de asignar a la variable a el valor a mas el valor  b
+a=a-b;  //forma corta de asignar a la variable a el valor a menos el valor de b
+~~~~
 La misma sintaxis funciona para el resto de operacion matemáticas básicas.
 
 ![operadormat](/images/asignacion.png "Operadores de asignación")
 
+### Operadores incremento y decremento
+Los operadores de incremento y decremento se usa para sumar o restar en 1 el valor de una variable entera.
+
 ~~~~
-public class EjemploTres {
+int x = 10;   // x tiene el valor de 10
+x++;          // x tiene el valor de 11
+x--;            // x tiene el valor de 10
 
-    public static void main(String[] args) {
-        //Incrementos Decrentes
-        int a, b; //Declarando dos variables en una lines
-        int z=2; //2 puntos por poner el nombre
-        a=0;
-        b=0;
+~~~~
+También este operador puede expresarse de forma posfija de la siguiente manera:
+~~~~
+int x = 10;   // x tiene el valor de 10
+++x;          // x tiene el valor de 11
+--x;            // x tiene el valor de 10
+~~~~
 
-        //a=a+z;  //forma larga de incremento
-        a+=z;    //Forma corta de incremento
-        b=b+z;
+Hasta este momento tanto de forma *prefija* como *posfija* el resultado es el mismo, debido que estan declarado en una sentencia simple. 
+Consideremos la siguiente sentencia, donde buscamos incrementar el valor de x en 1 y sumarle l variable a:
+~~~~
+int x = 9;
+int a = 1;
+x = a + x++;
+// El resultado de x es 10
+~~~~
+A simple vista el resultado debería ser 11 porque sumanos la variable a que tiene 1 y x++ que haciendo el incremento debería ser 10. Sin embargo, en la sentencia `x = a + x++` el compilador no considera el incrementa sino solo el valor de la variable x que hasta ese momento tiene 9.
 
-        //a=a+1;   //Forma larga de incrementar  1;
-        a++;     //Forma corta de incremntar 1
-        b=b+1;
+Ahora la situcion cambia cuando el incremento lo realizamos de forma prefija
+~~~~
+int x = 9;
+int a = 1;
+x = a + ++x;
+// Ahora si el resultado de x es 11
+~~~~
 
+### La clase Math.
 
+La clase Math viene por defecto en el lenguaje java, esta clase trae metodos con las operaciones matemáticas mas usuales que son de uso universal.  
 
-        a--;   // incremento posfijo
-        b--;
+~~~~
+//Redondeo hacia arriba y hacia abjo
+Math.ceil(2.1) 
+Math.floar(2.1) 
 
-        ++a;   // incremento prefijo
-        ++b;
+//Potenciación y radicación
+Math.pow(2, 3) // EL primer argumento la base y el segundo la potencia
+Math.sqrt(3)   // Extrae la raiz cuadra del número
 
-        a= a + ++a;
+// EL numero mayor de 2 numeros
+Math.max(2, 3) 
 
-       // System.out.printf("El puntaje de A es: %d ek puntaje de B es %d",a,b);   //Dar formato a la salida
+// Área de un círculo (PI * r^2):
+Math.PI * Math.pow(r, 2)
 
-        // Funciones clase MATH
+// Área de una esfera (4 * PI * r^2):
+4 * Math.PI * Math.pow(r, 2)
 
-        int valor1, x;
-        x=9;
-        double valor2;
+// Volumen de una esfera ( (4/3) * PI * r^3):
+(4/3) * Math.PI * Math.pow(r, 3)
 
-        valor2 = Math.sqrt(x);
-        valor2 = Math.pow(2,5);
-
-        valor2 = Math.ceil(8.65898);
-        valor2 = Math.floor(8.65898);
-        System.out.println(valor2);
-
-
-    }
-
-}
+//Constantes PI
+Math.PI
+Math.E 
 
 ~~~~
