@@ -51,7 +51,9 @@ int b = a;
 ~~~~
 ### Operadores matemáticos
 En java las operaciones matematicas basicas las podemos realuzar con este tipo de operadores.
-![operadormat](/image/asignacion.png "Operadores de asignación")
+![operadormat](/images/asignacion.png "Operadores de asignación")
+
+~~~~
 public class EjemploTres {
 
     public static void main(String[] args) {
@@ -97,3 +99,4 @@ public class EjemploTres {
 
 }
 
+~~~~
