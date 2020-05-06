@@ -45,4 +45,5 @@ Inicialización de matrices
 
         }
  ~~~~
-   
+  
+  Código disponible en el siguiente enlace: [Code](VectorParalelo.java)
