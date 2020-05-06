@@ -20,7 +20,7 @@
         // System.out.println("La edad de " + nombres[i] +"es "+ edades[i] );
 ~~~~
 ## Matrices
-**Inicialización de matrices **
+Inicialización de matrices
 ~~~~
 
     int matrix [][] = {{2,4,4},{6,6,9}};
