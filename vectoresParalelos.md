@@ -1,10 +1,16 @@
 # Vectores paralelos y matrices.
-## Vectores paralelos para nombres y edades
+## Ejemplo para nombres y edades con vectores
+
+En este ejemplo usaremos dos vecrtores para guardar información de forma paralela, es decir, que los elementos del primer vector `nombres[]` tendrán relacion con los elementos del segundo vector `edades[]`, el índice servira como referencia para emparejar los elementos. 
+
+Adicionalmente usaremos otra forma de declarar y definir directamente los valores de  los arreglos.
 
 ~~~~
  String nombres[] = {"Juan", "Pedro","Judas"};
         int edades[]= {34,56,64};
-
+~~~~
+A continuación buscaremos el elemento mayor del arreglo de enteros, guardar el valor en una variable auxiliar de tipo entero: `mayor`, así mismo guardaremos el índice para identificar el arreglo paralelo `nombres`. 
+~~~~
         int mayor = edades[0];
         int posicion=0;
 
