@@ -1,5 +1,6 @@
 * Vectores paralelos y matrices.
 ** Vectores paralelos para nombres y edades
+
 ~~~~
  String nombres[] = {"Juan", "Pedro","Judas"};
         int edades[]= {34,56,64};
@@ -17,9 +18,7 @@
         }
         System.out.printf("%s es el mayor, actualmente tiene: %d \n",nombres[posicion],mayor);
         // System.out.println("La edad de " + nombres[i] +"es "+ edades[i] );
-  
-    ~~~~
-    
+~~~~
 ** Matrices
 Inicialización de matrices 
 ~~~~
@@ -37,6 +36,5 @@ Inicialización de matrices
             System.out.print("\n");
 
         }
-  
-    ~~~~
+ ~~~~
    
