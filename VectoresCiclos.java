@@ -1,8 +1,7 @@
-//package ejemplodos.java;
 
 import java.util.Scanner;
 
-public class Revisar {
+public class VectoresCiclos {
 
     public static void main(String[] args) {
 
