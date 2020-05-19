@@ -28,7 +28,7 @@ El ciclo `for` recorre el vector por todas las posiciones, dentro de esta iterac
 
 
 ## Matrices
-Inicialización de matrices
+Inicialización de matrices o vectores multidimensionales
 ~~~~
 
     int matrix [][] = {{2,4,4},{6,6,9}};
@@ -45,5 +45,26 @@ Inicialización de matrices
 
         }
  ~~~~
+ ### Tamaño de vectores multidimensionales
+ 
+Para la condicional del `for` se puede obtener el tamaño el vector de forma dinámica. Es decir, no especificar con numero  el tamaño del vector, sino, obtener a través de un atributo del vector.
+ ~~~~
+ int matrix [][]={{4,5,6},{6,7,8},{30,45,60},{20,40,60}};
+for (int i=0;i<matrix.length ;i++){
+            for (int j=0;j< matrix[i].length ;j++)
+            {    
+               System.out.print(matrix[i][j]);               
+                
+               System.out.print("\t"); 
+            }
+            
+            System.out.print("\n"); 
+        }
+~~~~
+
+En esta matriz bidimensional llamada `matrix[][]` el primer `for` necesita conocer el tamaño del vector, el cual se obtiene con `matrix.length`. En el caso del segunfo `for` el tamaño se obtiene con `matrix[indice].lenght`
+
+  
+  
   
   Código disponible en el siguiente enlace: [Code](VectorParalelo.java)
