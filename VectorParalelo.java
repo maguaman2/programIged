@@ -45,6 +45,24 @@ public class VectorParalelo {
         *
         *
         * */
+        
+        //Atributo Lenght del vector
+        
+        int matrix [][]={{4,5,6},{6,7,8},{30,45,60},{20,40,60}};
+        
+        for (int i=0;i<matrix.length ;i++){
+            for (int j=0;j< matrix[i].length ;j++)
+            {        
+                if (i==2)
+                    System.out.print("--");
+                else
+                    System.out.print(matrix[i][j]);               
+                
+                System.out.print("\t"); 
+            }
+            
+            System.out.print("\n"); 
+        }
 
     }
 }
