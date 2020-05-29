@@ -35,4 +35,6 @@ public class ProbarPersona{
 }
 ~~~~
 ### Aclarando puntos
-1. 
+1. La palabra clave `new`  crea un nuevo objeto que lo se llama `persona` y es del tipo `Persona`. Este proceso es conocido como `instancia` de la clase. Junto a la palabra clave se vuelve a repetir el nombre de la clase, pero esta vez con los `paréntesis`, esto significa que esxiste un `metodo` que crea el objeto `persona`. Ese método `Persona()` se denomina `constructor`.
+
+2. Una vez creado el objeto `persona` ahora podemos utilizar los métodos definidos en la clase `Persona`, y se accede con el punto luego escribimos el nombre del metodo que en esta caso es `puedeCaminar();`  
