@@ -54,6 +54,8 @@ public void imprimir (Collection coleccion)
 ~~~~
 
 ## Lista de colecciones de tipo *List* con instancias de la clase estudiante
+
+Para este ejemplo se debe primero tener definida la clase Estudiante
 ~~~~
 
         List<Estudiante> listaEstudiantes =  new ArrayList();
