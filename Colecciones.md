@@ -55,7 +55,7 @@ public void imprimir (Collection coleccion)
 
 ## Lista de colecciones de tipo *List* con instancias de la clase estudiante
 [blog]: http://limni.net/blog/
-Para este ejemplo se debe primero tener definida la clase Estudiante. ![Clases](./TeoriaClases.md)
+Para este ejemplo se debe primero tener definida la clase Estudiante. [Clases](./TeoriaClases.md)
 ~~~~
 
         List<Estudiante> listaEstudiantes =  new ArrayList();
