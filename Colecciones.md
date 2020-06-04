@@ -48,16 +48,14 @@ public void imprimir (Collection coleccion)
 {
   for (Object elemento : coleccion)
   {
-  System.out.println(Elemento: "+elemento);
+  System.out.println("Elemento: "+elemento);
   }
 }
 ~~~~
 
 ## Lista de colecciones de tipo *List* con instancias de la clase estudiante
-[blog]: http://limni.net/blog/
 Para este ejemplo se debe primero tener definida la clase Estudiante. [Clases](./TeoriaClases.md)
 ~~~~
-
         List<Estudiante> listaEstudiantes =  new ArrayList();
         Estudiante e1= new Estudiante();
         e1.setId(1);
