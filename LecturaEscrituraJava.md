@@ -2,6 +2,14 @@
 
 ## Crear archivo y guardar texto.
 ~~~~
+  FileWriter file= new FileWriter("c:\\java\\archivo.txt",true);
+        PrintWriter printer= new PrintWriter(file);
+        printer.println("Escribiendo en el archivoor");
+        printer.close();  
+
+~~~~
+## Abrir y mostrar archivo
+~~~~
 File file1 = new File("c:\\java\\archivo.txt");
           BufferedReader entrada = new BufferedReader(new FileReader(file1));
           String lee = entrada.readLine();
@@ -11,12 +19,5 @@ File file1 = new File("c:\\java\\archivo.txt");
               lee = entrada.readLine();
           }
           entrada.close();
-~~~~
-## Abrir y mostrar archivo
-~~~~
-  FileWriter file= new FileWriter("c:\\java\\archivo.txt",true);
-        PrintWriter printer= new PrintWriter(file);
-        printer.println("Escribiendo en el archivoor");
-        printer.close();  
       
-    ~~~~   
+ ~~~~   
